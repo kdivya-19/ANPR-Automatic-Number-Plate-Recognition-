@@ -1,0 +1,13 @@
+<!-- index.html -->
+<html>
+<head>
+    <title>Flask App</title>
+</head>
+<body>
+    <ul>
+        {% for record in post %}
+        <li>{{ record.reg_name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
